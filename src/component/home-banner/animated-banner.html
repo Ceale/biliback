@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .root {
+            position: relative;
+            width: 100%;
+            height: 9.4vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .root .outline {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 2px solid yellow;
+            box-sizing: border-box;
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        .root img, .root video {
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .root .pic {
+            z-index: 1;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .root .layer {
+            transform-origin: center;
+            position: absolute;
+        }
+    </style>
+    <script src="./script.ts"></script>
+</head>
+<body>
+    <div class="root">
+        <!-- <div class="outline"></div> -->
+    </div>
+    <home-banner/>
+</body>
+</html>
