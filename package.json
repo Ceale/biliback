@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@ceale/util": "latest",
+    "@types/bun": "^1.2.21",
+    "@types/node": "^24.3.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "BiliBack",
+  "version": "0.0.0",
+  "description": "通过重写的方式还原了2019-2022年间的b站的界面样式。",
+  "icons": {
+    "48": "asset/icon.png"
+  }
+}
